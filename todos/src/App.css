@@ -1,0 +1,11 @@
+.row > *,.root-action-buttons>* {
+  min-width: 2rem !important;
+  margin-right: 0.5rem;
+}
+
+.row > span {
+  display: inline-block;
+}
+.row,.root-action-buttons{
+  margin-bottom: 0.5rem;
+}
