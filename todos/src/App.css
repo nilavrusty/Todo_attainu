@@ -1,11 +1,16 @@
-.row > *,.root-action-buttons>* {
-  min-width: 2rem !important;
-  margin-right: 0.5rem;
+.App{
+  width: 80vw;
+  height:100vh;
+  display: flex;
+  margin: 0 auto;
 }
-
-.row > span {
-  display: inline-block;
+.App  > div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row,.root-action-buttons{
-  margin-bottom: 0.5rem;
+.App >div:first-child{
+  border-right: 1px solid #000;
 }
